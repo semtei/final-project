@@ -156,7 +156,7 @@ SUPERCLUSTER PAGES
   color:red;
 }
 
-.extra-pages-body ul {
+.extra-pages-body li:last-child {
   padding-bottom: 15px;
 }
 
