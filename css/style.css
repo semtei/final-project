@@ -116,7 +116,6 @@ body {
   justify-content: center; 
 }
 
-
 .grid-container a {
   transition: all 0.4s ease;
   color: white; 
@@ -152,12 +151,14 @@ SUPERCLUSTER PAGES
   color: black;
 }
 
-.extra-pages-body a:hover {
-  color:red;
+.extra-pages-body a:last-child {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 15px;
 }
 
-.extra-pages-body li:last-child {
-  padding-bottom: 15px;
+.extra-pages-body a:hover {
+  color:red;
 }
 
 #quotes {
