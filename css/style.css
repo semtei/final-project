@@ -156,25 +156,22 @@ SUPERCLUSTER PAGES
   color:red;
 }
 
+.extra-pages-body ul {
+  padding-bottom: 15px;
+}
+
 #quotes {
   list-style: none;
   padding-left: 0px;
 }
+
+
 
 /*******************************************
 PAGES WITH VIDEOS
 ********************************************/
 
 
-
-
-/*******************************************
-FACEBOOK PLUGIN                  
-********************************************/
-
-.fb-comments {
-  padding-top: 20px;
-}
 
 
 /*******************************************
