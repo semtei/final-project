@@ -44,10 +44,10 @@ video {
   color: white;
 }
 
-.transparent-box a:hover {
+/*.transparent-box a:hover {
   color: white;
   text-shadow: 0 0 20px white;
-}
+}*/
 
 * {
   box-sizing: border-box; 
