@@ -16,10 +16,9 @@ $(document).ready(function() {
 		        { src:"media/galaxies.jpg" },
 		        { src:"media/pair.jpg" },
 		        { src:"media/earth.jpg" },
-		        { src:"media/nebula.jpg" },
 		        { src:"media/large_web.jpg" },
 		        { src:"media/cauldron.jpg" },
-
+		        { src:"media/nebula.jpg" },
 	    	]
 		});
 	}
