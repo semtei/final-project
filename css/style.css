@@ -44,10 +44,10 @@ video {
   color: white;
 }
 
-/*.transparent-box a:hover {
+.transparent-box a:hover {
   color: white;
   text-shadow: 0 0 20px white;
-}*/
+}
 
 * {
   box-sizing: border-box; 
@@ -128,8 +128,8 @@ body {
 }
 
 .grid-container a:hover {
-  color:red;
-  text-shadow: 0 0 15px #FF0000;
+  color:#8030DB;
+  text-shadow: 0 0 15px #8030DB;
 }
 
 /*******************************************
@@ -153,22 +153,13 @@ SUPERCLUSTER PAGES
 }
 
 .extra-pages-body a:hover {
-  color:red;
+  color:#8030DB;
 }
 
 #quotes {
   list-style: none;
   padding-left: 0px;
 }
-
-
-
-/*******************************************
-PAGES WITH VIDEOS
-********************************************/
-
-
-
 
 /*******************************************
  GLITCH TITLE EFFECT                   
