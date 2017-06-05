@@ -45,7 +45,8 @@ video {
 }
 
 .transparent-box a:hover {
-  color:blue;
+  color:white;
+  text-shadow: 0 0 15px white;
 }
 
 * {
@@ -160,14 +161,6 @@ SUPERCLUSTER PAGES
   list-style: none;
   padding-left: 0px;
 }
-
-/*******************************************
-PAGES WITH VIDEOS
-********************************************/
-
-
-
-
 
 /*******************************************
  GLITCH TITLE EFFECT                   
