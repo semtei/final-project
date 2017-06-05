@@ -18,7 +18,7 @@ $(document).ready(function() {
 		        { src:"media/earth.jpg" },
 		        { src:"media/nebula.jpg" },
 		        { src:"media/large_web.jpg" },
-		        { src:"media/.jpg" },
+		        { src:"media/cauldron.jpg" },
 
 	    	]
 		});
