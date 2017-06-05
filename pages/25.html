@@ -9,6 +9,16 @@
 		<link rel="stylesheet" href="../css/style.css">
 	</head>
 	<body>
+		<div id="fb-root">
+			<script>(function(d, s, id) {
+	 			var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+			</script>
+		</div>		
 		<div class="site-container">
 			<header class="site-header">
 				<div class="glitch" data-text="Fermi Paradox">Fermi Paradox</div> 
@@ -22,9 +32,11 @@
 					<li>Even at the slow pace of currently envisioned interstellar travel, the Milky Way galaxy could be completely traversed in a few million years. </li>
 				</ul>	
 				<p> According to this line of reasoning, the Earth should have already been visited by extraterrestrial aliens. In an informal conversation, Fermi noted no convincing evidence of this, leading him to ask, "Where is everybody?" There have been many attempts to explain the Fermi paradox, primarily either suggesting that intelligent extraterrestrial life is extremely rare or proposing reasons that such civilizations have not contacted or visited Earth.</p>
+
+				<div class="fb-comments" data-href="https://semtei.github.io/final-project/pages/25.html" data-width="540px" data-numposts="5"></div>
 			</main>
 		</div><!-- .site-container -->
-		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>

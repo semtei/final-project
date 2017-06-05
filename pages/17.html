@@ -9,6 +9,16 @@
 		<link rel="stylesheet" href="../css/style.css">
 	</head>
 	<body>
+		<div id="fb-root">
+			<script>(function(d, s, id) {
+	 			var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+			</script>
+		</div>		
 		<div class="site-container">
 			<header class="site-header">
 				<div class="glitch" data-text="Many-worlds Interpretation">Many-worlds Interpretation</div> 
@@ -21,10 +31,12 @@
 					<li><a href="https://plato.stanford.edu/entries/qm-manyworlds/#2.1"> Many-Worlds Interpretation of Quantum Mechanics </a></li>
 					<li><a href="https://en.wikipedia.org/wiki/Many-worlds_interpretation"> Many-Worlds interpretation
 					</a></li>
-				</ul>	
+				</ul>
+
+				<div class="fb-comments" data-href="https://semtei.github.io/final-project/pages/17.html" data-width="540px" data-numposts="5"></div>					
 			</main>
 		</div><!-- .site-container -->
-		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>

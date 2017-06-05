@@ -9,6 +9,16 @@
 		<link rel="stylesheet" href="../css/style.css">
 	</head>
 	<body>
+		<div id="fb-root">
+			<script>(function(d, s, id) {
+	 			var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+			</script>
+		</div>	
 		<div class="site-container">
 			<header class="site-header">
 				<div class="glitch" data-text="Lao Tzu">Lao Tzu</div> 
@@ -17,7 +27,6 @@
 				<h3> A selection of quotes </h3>
 
 				<ul id="quotes">
-
 					<li>"Life is a series of natural and spontaneous changes. Don't resist them; that only creates sorrow. Let reality be reality. Let things flow naturally forward in whatever way they like."</li>
 
 					<li> “At the center of your being you have the answer; you know who you are and you know what you want.” </li>
@@ -27,11 +36,12 @@
 					<li> “If you realize that all things change, there is nothing you will try to hold on to. If you are not afraid of dying, there is nothing you cannot achieve.” </li>
 
 					<li> “Where the mystery is the deepest is the gate of all that is subtle and wonderful.” </li>
-
 				</ul>	
+
+				<div class="fb-comments" data-href="https://semtei.github.io/final-project/pages/23.html" data-width="540px" data-numposts="5"></div>
 			</main>
 		</div><!-- .site-container -->
-		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 		<script src="../js/jquery.quote_rotator.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../js/main.js"></script>
 	</body>

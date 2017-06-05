@@ -9,6 +9,16 @@
 		<link rel="stylesheet" href="../css/style.css">
 	</head>
 	<body>
+		<div id="fb-root">
+			<script>(function(d, s, id) {
+	 			var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+			</script>
+		</div>		
 		<div class="site-container">
 			<header class="site-header">
 				<div class="glitch" data-text="René Descartes">René Descartes</div> 
@@ -17,7 +27,6 @@
 				<h3> A selection of quotes </h3>
 
 				<ul id="quotes">
-
 					<li>“If you would be a real seeker after truth, it is necessary that at least once in your life you doubt, as far as possible, all things.”</li>
 
 					<li> “Doubt is the origin of wisdom.”</li>
@@ -27,11 +36,11 @@
 					<li> “I suppose therefore that all things I see are illusions; I believe that nothing has ever existed of everything my lying memory tells me. I think I have no senses. I believe that body, shape, extension, motion, location are functions. What is there then that can be taken as true? Perhaps only this one thing, that nothing at all is certain.” </li>
 
 					<li> “To live without philosophizing is in truth the same as keeping the eyes closed without attempting to open them.” </li>
-
 				</ul>	
+				<div class="fb-comments" data-href="https://semtei.github.io/final-project/pages/18.html" data-width="540px" data-numposts="5"></div>				
 			</main>
 		</div><!-- .site-container -->
-		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 		<script src="../js/jquery.quote_rotator.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../js/main.js"></script>
 	</body>
